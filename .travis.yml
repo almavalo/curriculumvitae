@@ -1,14 +1,14 @@
 language: node_js 
 cache:
   directories:
-    - ~!@/.npm
+    - ~/.npm
 node_js:
   - '9'
 git:
   depth: 3
 script:
   - yarn build
-  - echo 'url-personalizada.com' > public/CNAME
+
 deploy:
   provider: pages
   skip-cleanup: true
