@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
-        background-image: url("https://i.ibb.co/TRVcFV1/picture.png");
+        background-image: url("https://img.freepik.com/foto-gratis/cielo-azul_53876-31350.jpg?size=626&ext=jpg");
         background-size: 101% 103%;
         background-repeat: no-repeat;
     }
