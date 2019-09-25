@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
-        background: url("https://drive.google.com/open?id=1rQszDx9YdBuSyuP-v8G7vKYZkBjwwpZU");
+        background-image: url("https://i.ibb.co/TRVcFV1/picture.png");
         background-size: 101% 103%;
         background-repeat: no-repeat;
     }
