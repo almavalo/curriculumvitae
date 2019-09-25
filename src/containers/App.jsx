@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
-        background: url("./img/picture.PNG");
+        background: url("./public/Captura.PNG");
         background-size: 101% 103%;
         background-repeat: no-repeat;
     }
