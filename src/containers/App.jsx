@@ -1,5 +1,5 @@
 import React from 'react';
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import Main from '../components/Main';
 import Sidebar from '../components/Sidebar';
 import Info from '../components/Info';
@@ -9,6 +9,7 @@ import Skills from '../components/Skills';
 import About from '../components/About';
 import Languages from '../components/Languages';
 import useGetData from "../hooks/useGetData";
+import Spinner from "../components/Spinner";
 
 const GlobalStyle = createGlobalStyle`
     body {
@@ -24,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
 const App = () => {
     const data = useGetData();
     console.log(data);
-    return data.length === 0 ? <h1>Cargando...</h1> : (
+    return data.length === 0 ? <Spinner>Cargando...</Spinner> : (
         <Main>
             <GlobalStyle />
             <Sidebar>
